@@ -10,7 +10,7 @@ from uuid import uuid4
 TEST_ROOT_PATH: str = path.dirname(path.abspath(__file__))
 TEST_FILES_PATH: str = path.join(TEST_ROOT_PATH, 'miot')
 TEST_CACHE_PATH: str = path.join(TEST_ROOT_PATH, 'test_cache')
-TEST_OAUTH2_REDIRECT_URL: str = 'http://homeassistant.local:8123'
+TEST_OAUTH2_REDIRECT_URL: str = 'http://192.168.50.253:8123'
 TEST_LANG: str = 'zh-Hans'
 TEST_UID: str = '123456789'
 TEST_CLOUD_SERVER: str = 'cn'
